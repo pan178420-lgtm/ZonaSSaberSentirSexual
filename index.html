@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zona S: Tabúes en la Sexualidad</title>
+    <link href="index.css" rel="stylesheet">
+
+    <!-- Favicon - Logo en la pestaña de Chrome -->
+    <link rel="icon" type="image/svg+xml" href="img/logo,pagina.jpg">
+    <!-- Favicons adicionales para mejor compatibilidad -->
+    <link rel="apple-touch-icon" sizes="180x180" href="logo principAal.jpg">
+    <link rel="icon" type="image/png" sizes="32x32" href="logo principAal.jpg">
+    <link rel="icon" type="image/png" sizes="16x16" href="logo principAal.jpg">
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+        integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="progress-bar" id="progressBar"></div>
+
+    <header>
+        <div class="header-content">
+            <h1>Zona S: Saber, Sentir, Sexualidad</h1>
+            <p>Echemos un vistazo sobre los mitos y tabúes que rodean la sexualidad.</p>
+        </div>
+    </header>
+
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#mitos">🔍 Mitos y realidades</a>
+            <a href="#consentimiento">🤝 Consentimiento</a>
+            <a href="#orientacion">🌈 Orientación sexual</a>
+            <a href="#autoconocimiento">💭 Autoconocimiento</a>
+            <a href="#presion">⚖️ Presión social</a>
+            <a href="#embarazo">👶 Embarazo adolescente</a>
+            <a href="#pornografia">📱 Pornografía</a>
+            <a href="#aspectos-legales">🏥 ITS</a>
+            <a href="#salud-emocional">💚 Salud emocional</a>
+            <a href="#acceso-servicios">🧠¿Que prefieres?</a>
+        </div>
+    </nav>
+
+    <div class="carousel-container">
+        <div class="carousel" id="carousel">
+            <!-- Slide 1 - Educación Sexual -->
+            <div class="carousel-item"
+                style="background-image: url('https://img.freepik.com/vector-gratis/gender-equality-concept_23-2148596607.jpg?semt=ais_hybrid&w=740&q=80');">
+                <div>🌸 Educación Sexual Integral 🌸</div>
+            </div>
+            <!-- Slide 2 - Relaciones Saludables -->
+            <div class="carousel-item"
+                style="background-image: url('https://img.freepik.com/vector-premium/concepto-educacion-sexual_118813-12955.jpg');">
+                <div>💕 Relaciones Saludables 💕</div>
+            </div>
+            <!-- Slide 3 - Diversidad -->
+            <div class="carousel-item"
+                style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS93U5GJzYSKn_dUno4oZmwLeGCn9zQn_wP_w&s');">
+                <div>🌈 Diversidad e Inclusión 🌈</div>
+            </div>
+            <!-- Slide 4 - Conocimiento -->
+            <div class="carousel-item"
+                style="background-image: url('https://img.freepik.com/vector-premium/concepto-educacion-sexual_277904-9348.jpg');">
+                <div>🧠 Conocimiento y Respeto 🧠</div>
+            </div>
+            <!-- Slide 5 - Amor Propio -->
+            <div class="carousel-item"
+                style="background-image: url('https://img.freepik.com/vector-gratis/concepto-identidad-genero_23-2148533845.jpg?semt=ais_hybrid&w=740&q=80');">
+                <div>❤️ Amor Propio y Cuidado ❤️</div>
+            </div>
+        </div>
+        <div class="carousel-nav">
+            <div class="carousel-dot active" onclick="moveCarousel(0)"></div>
+            <div class="carousel-dot" onclick="moveCarousel(1)"></div>
+            <div class="carousel-dot" onclick="moveCarousel(2)"></div>
+            <div class="carousel-dot" onclick="moveCarousel(3)"></div>
+            <div class="carousel-dot" onclick="moveCarousel(4)"></div>
+        </div>
+    </div>
+
+    <section id="mitos">
+        <h2>🔍 Mitos y realidades sobre la sexualidad</h2>
+        <div class="quiz-container">
+            <div
+                style="width: 100%; height: 600px; background: linear-gradient(135deg, var(--primary-pink), var(--secondary-purple)); border-radius: 20px; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.5rem;">
+                <iframe title="Quiz Interactivo" frameborder="0" width="100%" height="600" style="border-radius: 20px;"
+                    src="https://view.genially.com/68b9e9620d2829474bec64be" allowfullscreen="true"
+                    scrolling="yes"></iframe>
+            </div>
+        </div>
+
+        <table class="tabla-mitos">
+            <thead>
+                <tr>
+                    <th>❌ Mito</th>
+                    <th>✅ Realidad</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>"La primera vez no te puedes embarazar"</td>
+                    <td>Totalmente falso. Si hay penetración vaginal sin protección, hay posibilidad de embarazo desde
+                        la primera vez.</td>
+                </tr>
+                <tr>
+                    <td>"Si la persona se ve limpia o sana, no tiene ITS"</td>
+                    <td>Falso. Muchas ITS como el VIH, el VPH o la clamidia no presentan síntomas visibles, pero se
+                        pueden transmitir.</td>
+                </tr>
+                <tr>
+                    <td>"Usar dos condones protege más"</td>
+                    <td>Falso. Usar dos condones a la vez genera fricción, lo que aumenta el riesgo de ruptura. Uno bien
+                        puesto es suficiente.</td>
+                </tr>
+                <tr>
+                    <td>"Solo los promiscuos tienen ITS"</td>
+                    <td>Falso. Cualquiera que tenga relaciones sexuales sin protección puede contraer una ITS, aunque
+                        tenga pocas parejas.</td>
+                </tr>
+                <tr>
+                    <td>"Hablar de sexo promueve que los jóvenes lo practiquen"</td>
+                    <td>Falso. La educación sexual integral retrasa el inicio de las relaciones sexuales y promueve
+                        decisiones responsables.</td>
+                </tr>
+                <tr>
+                    <td>"La masturbación es mala o causa enfermedades"</td>
+                    <td>Totalmente falso. Es una práctica normal, saludable y segura, sin efectos negativos físicos o
+                        mentales.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="consentimiento">
+        <h2>🤝 Consentimiento y relaciones saludables</h2>
+        <p>El consentimiento no es algo que se "obtiene"; es una conversación continua con otra persona (o personas)
+            sobre lo que te gusta o no te gusta, lo que quieren o no quieren. El consentimiento se negocia
+            respetuosamente antes y durante la actividad sexual, y puede modificarse o revocarse en cualquier momento.
+        </p>
+
+        <div style="width: 100%;">
+            <div style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;"><iframe
+                    title="Consentimiento" frameborder="0" width="1200" height="675"
+                    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                    src="https://view.genially.com/68c9c0ee6df27810656bdff7" type="text/html" allowscriptaccess="always"
+                    allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="orientacion">
+        <h2>🌈 Orientación sexual e identidad de género</h2>
+        <p>Diferenciar entre sexo, género, identidad y expresión es clave para respetar la diversidad. La orientación
+            puede ser heterosexual, homosexual, bisexual, pansexual, asexual, entre muchas otras.</p>
+        <div class="contenedor-imagen">
+            <div style="position: relative; width: 100%; height: 0; padding-top: 70.7071%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+                <iframe loading="lazy"
+                    style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+                    src="https://www.canva.com/design/DAG0rrkDU2Q/DHzu-LDWY2BCfPFqhs9D-g/view?embed"
+                    allowfullscreen="allowfullscreen" allow="fullscreen">
+                </iframe>
+            </div>
+            <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAG0rrkDU2Q&#x2F;DHzu-LDWY2BCfPFqhs9D-g&#x2F;view?utm_content=DAG0rrkDU2Q&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link"
+                target="_blank" rel="noopener"></a>
+        </div>
+        </div>
+    </section>
+
+    <section id="autoconocimiento">
+        <h2>💭 Autoconocimiento y autoexploración</h2>
+        <p>La masturbación es parte natural del desarrollo. Conocer el propio cuerpo sin culpa ni miedo fortalece la
+            autoestima y el bienestar.</p>
+        <div class="contenedor-imagen">
+            <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
+                 padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+                 border-radius: 8px; will-change: transform;">
+                <iframe loading="lazy"
+                    style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+                    src="https://www.canva.com/design/DAGz08qZAHc/nfiWppy9-BKOG3qHn_nAAg/view?embed"
+                    allowfullscreen="allowfullscreen" allow="fullscreen">
+                </iframe>
+            </div>
+            <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGz08qZAHc&#x2F;nfiWppy9-BKOG3qHn_nAAg&#x2F;view?utm_content=DAGz08qZAHc&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link"
+                target="_blank" rel="noopener"></a>
+        </div>
+    </section>
+
+    <section id="presion">
+        <h2>⚖️ Presión social y toma de decisiones</h2>
+        <p>La presión social puede inducir a decisiones apresuradas. Es importante decidir libremente, sin influencias
+            externas, respetando el propio ritmo.</p>
+        <div class="contenedor-imagen">
+            <div style="width: 100%;">
+                <div style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;"><iframe
+                        title="SOCIAL" frameborder="0" width="1200" height="675"
+                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                        src="https://view.genially.com/68dc2bca391be714fd5267d1" type="text/html"
+                        allowscriptaccess="always" allowfullscreen="true" scrolling="yes"
+                        allownetworking="all"></iframe> </div>
+            </div>
+    </section>
+
+    <section id="embarazo">
+        <h2>👶 Embarazo en la adolescencia</h2>
+        <p>Implica riesgos físicos, sociales y emocionales. Es fundamental brindar apoyo, educación sexual integral y
+            programas de prevención efectivos.</p>
+        <div class="contenedor-imagen">
+            <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+                <iframe loading="lazy"
+                    style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+                    src="https://www.canva.com/design/DAG03IK8W7c/mZsfE3h2uL3t_J1mJROaKQ/view?embed"
+                    allowfullscreen="allowfullscreen" allow="fullscreen">
+                </iframe>
+            </div>
+            <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAG03IK8W7c&#x2F;mZsfE3h2uL3t_J1mJROaKQ&#x2F;view?utm_content=DAG03IK8W7c&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link"
+                target="_blank" rel="noopener"> </a>
+        </div>
+    </section>
+
+    <section id="pornografia">
+        <h2>📱 Pornografía vs. realidad</h2>
+        <p>La pornografía distorsiona la percepción de la sexualidad. Es esencial diferenciar el entretenimiento de la
+            educación para no generar expectativas irreales.</p>
+        <div class="contenedor-imagen">
+            <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+                <iframe loading="lazy"
+                    style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+                    src="https://www.canva.com/design/DAG0e3sfgsE/0hT4XMTsxzDNFYN2sON1TA/view?embed"
+                    allowfullscreen="allowfullscreen" allow="fullscreen">
+                </iframe>
+            </div>
+            <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAG0e3sfgsE&#x2F;0hT4XMTsxzDNFYN2sON1TA&#x2F;view?utm_content=DAG0e3sfgsE&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link"
+                target="_blank" rel="noopener"> </a>
+
+        </div>
+    </section>
+
+    <section id="aspectos-legales">
+        <h2>🏥 ITS (Infecciones de Transmisión Sexual)</h2>
+        <p>Conocer los derechos sexuales y reproductivos ayuda a protegerse y tomar decisiones responsables e
+            informadas.</p>
+        <div class="contenedor-imagen">
+            <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+                <iframe loading="lazy"
+                    style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+                    src="https://www.canva.com/design/DAG0fE4IQGw/WXfp2W_fQ6w5NkXbNHXyJA/view?embed"
+                    allowfullscreen="allowfullscreen" allow="fullscreen">
+                </iframe>
+            </div>
+            <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAG0fE4IQGw&#x2F;WXfp2W_fQ6w5NkXbNHXyJA&#x2F;view?utm_content=DAG0fE4IQGw&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link"
+                target="_blank" rel="noopener"></a>
+        </div>
+    </section>
+
+    <section id="salud-emocional">
+        <h2>💚 Salud emocional y sexual</h2>
+        <p>La salud mental influye directamente en la vida sexual. Manejar emociones como culpa, miedo o ansiedad ayuda
+            a vivir la sexualidad de forma más plena y saludable.</p>
+        <div class="contenedor-imagen">
+            <div style="width: 100%;">
+                <div style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;"><iframe title="6"
+                        frameborder="0" width="1200" height="675"
+                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                        src="https://view.genially.com/68f7dc8c62ca6219f70d7c9d" type="text/html"
+                        allowscriptaccess="always" allowfullscreen="true" scrolling="yes"
+                        allownetworking="all"></iframe> </div>
+            </div>
+            <small style="font-size: 1rem; opacity: 0.8;"></small>
+        </div>
+        </div>
+    </section>
+
+    <section id="acceso-servicios">
+        <h2>🧠¿Que prefieres?</h2>
+        <p>Para finalizar , queremos proporcionarte un corto y entretenido que prefieres que incluye los temas q
+            tratamos a lo largo de esta pagina, esperamos te guste y que disfrutes!</p>
+        <div class="contenedor-imagen">
+            <div style="width: 100%;">
+                <div style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
+                    <div style="width: 100%;">
+                        <div style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
+                            <div style="width: 100%;">
+                                <div style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
+                                    <iframe title="Juego qué prefieres" frameborder="0" width="1200" height="675"
+                                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                                        src="https://view.genially.com/68def48e2e55393068c410a5" type="text/html"
+                                        allowscriptaccess="always" allowfullscreen="true" scrolling="yes"
+                                        allownetworking="all"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <small style="font-size: 1rem; opacity: 0.8;"></small>
+        </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>🌐 Páginas Informativas Externas</h2>
+        <p>Aquí encontrarás enlaces a organizaciones reconocidas mundialmente que brindan información confiable sobre
+            salud sexual y reproductiva.</p>
+        <div class="external-links">
+            <a href="https://www.plannedparenthood.org/" target="_blank">
+                🏥 Planned Parenthood<br>
+                <small style="opacity: 0.8;">Salud reproductiva y educación sexual</small>
+            </a>
+            <a href="https://www.who.int/es/news-room/fact-sheets/detail/sexual-health" target="_blank">
+                🌍 OMS - Salud Sexual<br>
+                <small style="opacity: 0.8;">Organización Mundial de la Salud</small>
+            </a>
+            <a href="https://www.siecus.org/" target="_blank">
+                📚 SIECUS<br>
+                <small style="opacity: 0.8;">Educación Sexual Integral</small>
+            </a>
+            <a href="https://www.unfpa.org/es/sexual-reproductive-health" target="_blank">
+                🤝 UNFPA<br>
+                <small style="opacity: 0.8;">Fondo de Población de las Naciones Unidas</small>
+            </a>
+        </div>
+    </section>
+
+    <div class="fab" onclick="scrollToTop()" title="Volver arriba">↑</div>
+
+    <script>
+        // Carrusel automático mejorado
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.carousel-item');
+        const dots = document.querySelectorAll('.carousel-dot');
+        const carousel = document.getElementById('carousel');
+        let autoplayInterval;
+
+        function moveCarousel(index) {
+            currentSlide = index;
+            carousel.style.transform = `translateX(-${currentSlide * 100}%)`;
+
+            dots.forEach((dot, i) => {
+                dot.classList.toggle('active', i === currentSlide);
+            });
+
+            // Reiniciar animación del contenido
+            slides[currentSlide].querySelector('div').style.animation = 'none';
+            setTimeout(() => {
+                slides[currentSlide].querySelector('div').style.animation = 'slideInScale 0.8s ease-out';
+            }, 10);
+        }
+
+        function nextSlide() {
+            currentSlide = (currentSlide + 1) % slides.length;
+            moveCarousel(currentSlide);
+        }
+
+        function startAutoplay() {
+            autoplayInterval = setInterval(nextSlide, 4000);
+        }
+
+        function stopAutoplay() {
+            clearInterval(autoplayInterval);
+        }
+
+        // Iniciar autoplay
+        startAutoplay();
+
+        // Pausar en hover
+        carousel.parentElement.addEventListener('mouseenter', stopAutoplay);
+        carousel.parentElement.addEventListener('mouseleave', startAutoplay);
+
+        // Navegación con teclado
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowLeft') {
+                stopAutoplay();
+                currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+                moveCarousel(currentSlide);
+                startAutoplay();
+            } else if (e.key === 'ArrowRight') {
+                stopAutoplay();
+                nextSlide();
+                startAutoplay();
+            }
+        });
+
+        // Barra de progreso de scroll
+        window.addEventListener('scroll', () => {
+            const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            const scrolled = (winScroll / height) * 100;
+            document.getElementById('progressBar').style.width = scrolled + '%';
+        });
+
+        // Navbar scroll effect
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 100) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Animación de aparición de secciones con Intersection Observer
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('section').forEach(section => {
+            observer.observe(section);
+        });
+
+        // Smooth scroll con animación mejorada
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetSection = document.querySelector(targetId);
+
+                if (targetSection) {
+                    const offsetTop = targetSection.offsetTop - 80;
+                    window.scrollTo({
+                        top: offsetTop,
+                        behavior: 'smooth'
+                    });
+
+                    // Efecto de pulso en la sección
+                    targetSection.style.animation = 'none';
+                    setTimeout(() => {
+                        targetSection.style.animation = 'pulse 0.5s ease';
+                    }, 10);
+                }
+            });
+        });
+
+        // Botón de volver arriba
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+
+        // Mostrar/ocultar botón FAB según scroll
+        const fab = document.querySelector('.fab');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                fab.style.opacity = '1';
+                fab.style.transform = 'scale(1)';
+            } else {
+                fab.style.opacity = '0';
+                fab.style.transform = 'scale(0)';
+            }
+        });
+
+        // Efecto de click en filas de la tabla
+        document.querySelectorAll('.tabla-mitos tr').forEach((row, index) => {
+            if (index > 0) { // Saltar header
+                row.addEventListener('click', function () {
+                    this.style.backgroundColor = 'rgba(255, 158, 181, 0.2)';
+                    setTimeout(() => {
+                        this.style.backgroundColor = '';
+                    }, 300);
+                });
+            }
+        });
+
+        // Efecto parallax suave en header
+        window.addEventListener('scroll', () => {
+            const scrolled = window.scrollY;
+            const header = document.querySelector('header');
+            if (header) {
+                header.style.transform = `translateY(${scrolled * 0.5}px)`;
+                header.style.opacity = 1 - (scrolled / 500);
+            }
+        });
+
+        // Easter egg: Click en el título
+        let clickCount = 0;
+        document.querySelector('header h1').addEventListener('click', () => {
+            clickCount++;
+            if (clickCount === 5) {
+                document.body.style.animation = 'rainbow 2s ease infinite';
+                setTimeout(() => {
+                    document.body.style.animation = '';
+                    clickCount = 0;
+                }, 2000);
+            }
+        });
+
+        // Animación de contadores (ejemplo para futuras métricas)
+        function animateCounter(element, target, duration = 2000) {
+            let start = 0;
+            const increment = target / (duration / 16);
+            const timer = setInterval(() => {
+                start += increment;
+                if (start >= target) {
+                    element.textContent = Math.round(target);
+                    clearInterval(timer);
+                } else {
+                    element.textContent = Math.round(start);
+                }
+            }, 16);
+        }
+
+        // Inicializar tooltips interactivos
+        document.querySelectorAll('[title]').forEach(el => {
+            el.addEventListener('mouseenter', function () {
+                this.style.cursor = 'help';
+            });
+        });
+    </script>
+</body>
+
+</html>
